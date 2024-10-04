@@ -1,0 +1,13 @@
+<div class="calculator">
+  <h2>String Calculator</h2>
+  <input
+    id="inputNumbers"
+    name="inputNumbers"
+    aria-label="Enter Numbers"
+    type="text"
+    [(ngModel)]="numericStringValue"
+    placeholder="Enter numbers"
+  />
+  <button type="button" (click)="calculate()">Calculate</button>
+  <div>Result: {{ result }}</div>
+</div>

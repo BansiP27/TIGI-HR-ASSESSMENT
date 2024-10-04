@@ -1,0 +1,22 @@
+/* src/app/string-calculator/string-calculator.component.css */
+.calculator {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+div {
+  margin-top: 10px;
+  font-weight: bold;
+}
